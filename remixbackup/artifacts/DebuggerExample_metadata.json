@@ -1,0 +1,68 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"constant": true,
+				"inputs": [],
+				"name": "myUint",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_myuint",
+						"type": "uint256"
+					}
+				],
+				"name": "setMyUint",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/DebuggerExample.sol": "DebuggerExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/DebuggerExample.sol": {
+			"keccak256": "0x98c687c54efb9bcdc0e74775b99609be7e52cb4385138b331cc60ba89bd9fa9a",
+			"urls": [
+				"bzz-raw://09e88b56a12276c985b5ee71ebf0918d52781a99c7cfae60296cce4d09d9dc2d",
+				"dweb:/ipfs/QmQidJ1XnoEuQmowH23YEptA1GNuz6P59NMd1fYFaEVosS"
+			]
+		}
+	},
+	"version": 1
+}

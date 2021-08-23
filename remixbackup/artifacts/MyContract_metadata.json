@@ -1,0 +1,81 @@
+{
+	"compiler": {
+		"version": "0.6.0+commit.26b70077"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "_num",
+						"type": "uint256"
+					}
+				],
+				"name": "add",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"name": "myUintArray",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			},
+			{
+				"inputs": [],
+				"name": "removeElement",
+				"outputs": [],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {},
+			"notice": "works in 0.5.15 AND 0.6.0"
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/S03L14 - Sol6_ex3_ArrayLength.sol": "MyContract"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/S03L14 - Sol6_ex3_ArrayLength.sol": {
+			"keccak256": "0x2e7ad9ae1141f7a3cff1a812f0cd8d64d798971edc95371835be6c75f4430de8",
+			"urls": [
+				"bzz-raw://cb4c24a9bdf83149df57938c88b0e01ba68adfaa47dcefed8fc93310a7bcd0bc",
+				"dweb:/ipfs/QmcCwkpuCtJcZo9BC4qMCLJjqePd1r5QhhGhsw37fPxffS"
+			]
+		}
+	},
+	"version": 1
+}

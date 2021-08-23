@@ -1,0 +1,119 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "burnToken",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "createNewToken",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [],
+				"name": "purchaseToken",
+				"outputs": [],
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "function"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendToken",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"constant": true,
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"payable": false,
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/InheritanceModifierExample.sol": "InheritanceModifierExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/InheritanceModifierExample.sol": {
+			"keccak256": "0x5affa5dbcd4de04fcd55fa685e258084555f4cdb1f748d17dd757ca6a5f3e939",
+			"urls": [
+				"bzz-raw://5766004bb3bab6c0be2cf7a6dbd130aa1e490909aae8f384945af17f3d039927",
+				"dweb:/ipfs/QmQ4nww9Sp6dY5D9RpbsNmm72GwVdGZ74hbm7dSLkejxmV"
+			]
+		},
+		"browser/Owned.sol": {
+			"keccak256": "0x3fef4cc1fa6ef059bd60f4d842a11e28436994569112a33cdccfe3f3dc3d15c5",
+			"urls": [
+				"bzz-raw://c022da75f0a6f3a9e4ff4b4cbac4aa402c46d1757773c898562f65b48c9bd8ef",
+				"dweb:/ipfs/QmZyHUvuzChJfPfnbCRtnA4wRqVULN2NtEt1ojQXpQNphZ"
+			]
+		}
+	},
+	"version": 1
+}

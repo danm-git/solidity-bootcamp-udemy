@@ -1,0 +1,63 @@
+{
+	"compiler": {
+		"version": "0.5.17+commit.d19bba13"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"payable": true,
+				"stateMutability": "payable",
+				"type": "fallback"
+			},
+			{
+				"constant": false,
+				"inputs": [
+					{
+						"internalType": "address payable",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "withdrawMoney",
+				"outputs": [],
+				"payable": false,
+				"stateMutability": "nonpayable",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"methods": {}
+		},
+		"userdoc": {
+			"methods": {}
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"SimpleWallet.sol": "SimpleWallet"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"SimpleWallet.sol": {
+			"keccak256": "0x96b61c783976171662149b26775e98f8ef584204cd05925cb07298bcfc6b6fd8",
+			"urls": [
+				"bzz-raw://42b748140448a64eec1c89e6152b4be48aea2ed6c042a3cfdd2b64c880f2b576",
+				"dweb:/ipfs/QmcpERtB7mKWm3bHDN5QLuueFPNcNmFW3dBMPL4D93WJm8"
+			]
+		}
+	},
+	"version": 1
+}

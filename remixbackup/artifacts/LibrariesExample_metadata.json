@@ -1,0 +1,101 @@
+{
+	"compiler": {
+		"version": "0.6.12+commit.27d51765"
+	},
+	"language": "Solidity",
+	"output": {
+		"abi": [
+			{
+				"inputs": [],
+				"stateMutability": "nonpayable",
+				"type": "constructor"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "_to",
+						"type": "address"
+					},
+					{
+						"internalType": "uint256",
+						"name": "_amount",
+						"type": "uint256"
+					}
+				],
+				"name": "sendToken",
+				"outputs": [
+					{
+						"internalType": "bool",
+						"name": "",
+						"type": "bool"
+					}
+				],
+				"stateMutability": "nonpayable",
+				"type": "function"
+			},
+			{
+				"inputs": [
+					{
+						"internalType": "address",
+						"name": "",
+						"type": "address"
+					}
+				],
+				"name": "tokenBalance",
+				"outputs": [
+					{
+						"internalType": "uint256",
+						"name": "",
+						"type": "uint256"
+					}
+				],
+				"stateMutability": "view",
+				"type": "function"
+			}
+		],
+		"devdoc": {
+			"kind": "dev",
+			"methods": {},
+			"version": 1
+		},
+		"userdoc": {
+			"kind": "user",
+			"methods": {},
+			"version": 1
+		}
+	},
+	"settings": {
+		"compilationTarget": {
+			"browser/Libraries.sol": "LibrariesExample"
+		},
+		"evmVersion": "istanbul",
+		"libraries": {},
+		"metadata": {
+			"bytecodeHash": "ipfs"
+		},
+		"optimizer": {
+			"enabled": false,
+			"runs": 200
+		},
+		"remappings": []
+	},
+	"sources": {
+		"browser/Libraries.sol": {
+			"keccak256": "0x8fd90987c8eb54979e138ae478c799ecaef89486b0dd9d57c48dd42012e5f62b",
+			"urls": [
+				"bzz-raw://6e9de295b55646fff085da9bcc59ecc146a642e188102a9674e51ff3a8e1e44a",
+				"dweb:/ipfs/QmT2J1wzABHMCj11AmTHShtV6CLBW7B2MnE372cLHNumY7"
+			]
+		},
+		"https://github.com/OpenZeppelin/openzeppelin-contracts/contracts/math/SafeMath.sol": {
+			"keccak256": "0xc9e29603b58008e9e360bd03b1d24b8fcb9bd0f2b2a2aeacea02037b3ab639b4",
+			"license": "MIT",
+			"urls": [
+				"bzz-raw://5940dcf8f131c289dd561606c87d86cdba78407ef350d4d7de1eeb64f37b38da",
+				"dweb:/ipfs/QmeViJZ2w9BbBdH8ky8ThPhhVzi3xCn9vRSsDEmC8NXJGX"
+			]
+		}
+	},
+	"version": 1
+}
